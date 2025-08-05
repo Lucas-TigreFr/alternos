@@ -2,6 +2,13 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Eye } from "lucide-react";
 import collectionImage from "@/assets/suits-collection.jpg";
+import catalog1 from "@/assets/suits-catalog-1.jpg";
+import catalog2 from "@/assets/suits-catalog-2.jpg";
+import catalog3 from "@/assets/suits-catalog-3.jpg";
+import instagram1 from "@/assets/instagram-1.jpg";
+import instagram2 from "@/assets/instagram-2.jpg";
+import instagram3 from "@/assets/instagram-3.jpg";
+import instagram4 from "@/assets/instagram-4.jpg";
 
 const Collection = () => {
   const suits = [
@@ -9,21 +16,26 @@ const Collection = () => {
       name: "Terno Clássico Preto",
       description: "Elegância atemporal para cerimônias e eventos especiais",
       price: "A partir de R$ 150",
-      features: ["Corte Slim Fit", "Tecido Premium", "Gravata Inclusa"]
+      features: ["Corte Slim Fit", "Tecido Premium", "Gravata Inclusa"],
+      image: catalog1
     },
     {
       name: "Terno Azul Marinho",
       description: "Sofisticação e versatilidade para qualquer ocasião",
       price: "A partir de R$ 150",
-      features: ["Corte Italiano", "Tecido Importado", "Acessórios Inclusos"]
+      features: ["Corte Italiano", "Tecido Importado", "Acessórios Inclusos"],
+      image: catalog2
     },
     {
       name: "Terno Cinza Charcoal",
       description: "Modernidade e elegância em um único modelo",
       price: "A partir de R$ 150",
-      features: ["Design Moderno", "Ajuste Perfeito", "Kit Completo"]
+      features: ["Design Moderno", "Ajuste Perfeito", "Kit Completo"],
+      image: catalog3
     }
   ];
+
+  const instagramImages = [instagram1, instagram2, instagram3, instagram4];
 
   return (
     <section id="colecao" className="py-20 bg-black-light">
@@ -64,8 +76,12 @@ const Collection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {suits.map((suit, index) => (
             <Card key={index} className="bg-card border-black-medium hover:border-gold transition-all duration-300 hover:shadow-gold overflow-hidden">
-              <div className="h-64 bg-gradient-to-br from-black-medium to-black-elegant flex items-center justify-center">
-                <div className="text-6xl text-gold opacity-20">👔</div>
+              <div className="h-64 overflow-hidden">
+                <img 
+                  src={suit.image} 
+                  alt={suit.name}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-gold mb-2">
@@ -103,9 +119,13 @@ const Collection = () => {
             Acompanhe nossas novidades, looks inspiradores e eventos realizados
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-            {[1, 2, 3, 4].map((item) => (
-              <div key={item} className="aspect-square bg-black-medium rounded-lg flex items-center justify-center">
-                <span className="text-gold text-2xl">📸</span>
+            {instagramImages.map((image, index) => (
+              <div key={index} className="aspect-square rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300 cursor-pointer">
+                <img 
+                  src={image} 
+                  alt={`Instagram post ${index + 1}`}
+                  className="w-full h-full object-cover"
+                />
               </div>
             ))}
           </div>
