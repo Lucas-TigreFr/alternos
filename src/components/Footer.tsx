@@ -1,18 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Phone, MapPin, Instagram, Facebook, Clock } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-black-elegant border-t border-black-medium">
+  return <footer className="bg-black-elegant border-t border-black-medium">
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="md:col-span-1">
-            <img 
-              src="/lovable-uploads/dfa79e39-5dda-496a-8d1c-0df0239df077.png" 
-              alt="AL Ternos" 
-              className="h-16 w-auto mb-4"
-            />
+            
             <p className="text-muted-foreground mb-6 leading-relaxed">
               Excelência em aluguel de ternos slim fit com atendimento personalizado e qualidade italiana.
             </p>
@@ -104,8 +98,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
