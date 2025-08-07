@@ -15,22 +15,22 @@ const Collection = () => {
     {
       name: "Terno Clássico Preto",
       description: "Elegância atemporal para cerimônias e eventos especiais",
-      price: "A partir de R$ 150",
-      features: ["Corte Slim Fit", "Tecido Premium", "Gravata Inclusa"],
+      price: "A partir de $199",
+      features: ["Corte Slim Fit", "Tecido Premium", "Gravata + Camisa Social Inclusas"],
       image: catalog1
     },
     {
       name: "Terno Azul Marinho",
       description: "Sofisticação e versatilidade para qualquer ocasião",
-      price: "A partir de R$ 150",
-      features: ["Corte Italiano", "Tecido Importado", "Acessórios Inclusos"],
+      price: "A partir de $199",
+      features: ["Corte Italiano", "Tecido Importado", "Gravata + Camisa Social Inclusas"],
       image: catalog2
     },
     {
       name: "Terno Cinza Charcoal",
       description: "Modernidade e elegância em um único modelo",
-      price: "A partir de R$ 150",
-      features: ["Design Moderno", "Ajuste Perfeito", "Kit Completo"],
+      price: "A partir de $199",
+      features: ["Design Moderno", "Ajuste Perfeito", "Gravata + Camisa Social Inclusas"],
       image: catalog3
     }
   ];

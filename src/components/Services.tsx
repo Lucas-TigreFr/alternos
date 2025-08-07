@@ -15,8 +15,8 @@ const Services = () => {
     },
     {
       icon: <Clock className="w-8 h-8 text-gold" />,
-      title: "Pronta Entrega",
-      description: "Amplo estoque disponível com diferentes tamanhos e modelos para entrega imediata."
+      title: "Retirada Imediata",
+      description: "Amplo estoque disponível com diferentes tamanhos e modelos para retirada imediata."
     },
     {
       icon: <Award className="w-8 h-8 text-gold" />,

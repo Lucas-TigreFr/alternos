@@ -39,7 +39,7 @@ const Hero = () => {
         {/* Trust Indicators */}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
           <div className="text-center">
-            <div className="text-3xl font-bold text-gold mb-2">500+</div>
+            <div className="text-3xl font-bold text-gold mb-2">3000+</div>
             <div className="text-sm text-muted-foreground">Eventos Realizados</div>
           </div>
           <div className="text-center mx-0">

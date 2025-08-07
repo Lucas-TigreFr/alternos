@@ -12,7 +12,7 @@ const FAQ = () => {
     },
     {
       question: "O que está incluso no aluguel?",
-      answer: "O aluguel inclui o terno completo (paletó, calça, camisa social), gravata ou gravata borboleta, e acessórios básicos. Sapatos sociais também podem ser inclusos mediante consulta."
+      answer: "O aluguel inclui o terno completo (paletó/blazer e calça), camisa social e gravata (ou gravata borboleta). Não trabalhamos com sapatos."
     },
     {
       question: "Vocês fazem ajustes no terno?",
