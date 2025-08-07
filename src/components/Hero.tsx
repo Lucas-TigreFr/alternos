@@ -12,7 +12,15 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="mb-6">
-          
+          <img
+            src="/lovable-uploads/4980b7d6-1f29-4a6b-a3fa-87d9029e7774.png"
+            alt="Detalhe dourado AL Ternos – textura metálica"
+            width={256}
+            height={256}
+            loading="eager"
+            fetchPriority="high"
+            className="mx-auto w-28 md:w-40 h-auto rounded"
+          />
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold text-gold mb-6 leading-tight">
