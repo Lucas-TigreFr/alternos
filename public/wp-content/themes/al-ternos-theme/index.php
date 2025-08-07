@@ -55,6 +55,15 @@
         <div class="hero__overlay"></div>
         <div class="container hero__content" role="region" aria-label="Introdução">
           <p class="eyebrow">Elegância e sofisticação</p>
+          <img
+            src="/lovable-uploads/4980b7d6-1f29-4a6b-a3fa-87d9029e7774.png"
+            alt="Textura dourada elegante – destaque AL Ternos"
+            width="160"
+            height="160"
+            loading="eager"
+            fetchpriority="high"
+            class="hero__badge"
+          />
           <h1 class="hero__title">Aluguel de Ternos Slim Fit</h1>
           <p class="hero__subtitle">Corte italiano, atendimento personalizado e <strong>modelos para retirada imediata</strong>.</p>
           <div class="hero__cta">
