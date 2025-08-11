@@ -117,9 +117,7 @@ const Location = () => {
                 <Clock className="w-6 h-6 text-gold" />
               </div>
               <h3 className="text-lg font-semibold text-gold mb-2">Horários Flexíveis</h3>
-              <p className="text-sm text-muted-foreground">
-                Atendimento aos domingos sob agendamento para sua conveniência
-              </p>
+              <p className="text-sm text-muted-foreground">Atendimento aos domingos sob agendamento para sua conveniência.</p>
             </div>
           </div>
 
