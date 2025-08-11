@@ -39,6 +39,7 @@ const Hero = () => {
               <MessageCircle className="w-5 h-5" />
               Falar no WhatsApp
             </a>
+          </Button>
         </div>
 
         {/* Trust Indicators */}
