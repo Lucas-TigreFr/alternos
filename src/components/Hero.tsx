@@ -40,10 +40,17 @@ const Hero = () => {
               Falar no WhatsApp
             </a>
           </Button>
-          <Button variant="gold-outline" size="xl" className="min-w-[200px]">
-            <Calendar className="w-5 h-5" />
-            Agendar Visita
-          </Button>
+          <Button asChild variant="outline" size="xl" className="min-w-[200px]">
+          <a
+    href="https://seulinkdeagendamento.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Agendar Visita"
+        >
+    <Calendar className="w-5 h-5" />
+    Agendar Visita
+  </a>
+</Button>
         </div>
 
         {/* Trust Indicators */}
