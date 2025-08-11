@@ -39,18 +39,6 @@ const Hero = () => {
               <MessageCircle className="w-5 h-5" />
               Falar no WhatsApp
             </a>
-          </Button>
-          <Button asChild variant="outline" size="xl" className="min-w-[200px]">
-          <a
-    href="https://seulinkdeagendamento.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Agendar Visita"
-        >
-    <Calendar className="w-5 h-5" />
-    Agendar Visita
-  </a>
-</Button>
         </div>
 
         {/* Trust Indicators */}
