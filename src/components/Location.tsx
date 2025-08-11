@@ -1,10 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MapPin, Clock, Phone, Calendar } from "lucide-react";
-
 const Location = () => {
-  return (
-    <section className="py-20 bg-black-light">
+  return <section className="py-20 bg-black-light">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gold mb-6">
@@ -40,9 +38,9 @@ const Location = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-gold mb-2">Endereço</h3>
                     <p className="text-muted-foreground">
-                      R. Seis, 110<br />
-                      Parque Dois Irmãos - Fortaleza/CE<br />
-                      CEP: 60743-260
+                      Rua da Elegância, 123<br />
+                      Centro - São Paulo/SP<br />
+                      CEP: 01234-567
                     </p>
                   </div>
                 </div>
@@ -72,9 +70,9 @@ const Location = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-gold mb-2">Contato</h3>
                     <div className="text-muted-foreground space-y-1">
-                      <p>Telefone: (11) 9 9999-9999</p>
-                      <p>WhatsApp: (11) 9 9999-9999</p>
-                      <p>Email: empresa.alternos@gmail.com</p>
+                      
+                      <p>WhatsApp: (55) 85 9 8196-6777</p>
+                      <p>Email: contato@altnos.com.br</p>
                     </div>
                   </div>
                 </div>
@@ -84,23 +82,13 @@ const Location = () => {
             {/* Action Buttons */}
             <div className="space-y-4">
               <Button asChild variant="gold" size="lg" className="w-full">
-                <a 
-                  href="https://wa.me/5585981966777?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20visita." 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="Agendar visita pelo WhatsApp"
-                >
+                <a href="https://wa.me/5585981966777?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20visita." target="_blank" rel="noopener noreferrer" aria-label="Agendar visita pelo WhatsApp">
                   <Calendar className="w-5 h-5" />
                   Agendar Visita Presencial
                 </a>
               </Button>
               <Button asChild variant="gold-outline" size="lg" className="w-full">
-                <a 
-                  href="https://maps.app.goo.gl/B1VoabU4SGF6jzgB9" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="Ver no Google Maps"
-                >
+                <a href="https://maps.app.goo.gl/B1VoabU4SGF6jzgB9" target="_blank" rel="noopener noreferrer" aria-label="Ver no Google Maps">
                   <MapPin className="w-5 h-5" />
                   Ver no Google Maps
                 </a>
@@ -148,8 +136,6 @@ const Location = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Location;
