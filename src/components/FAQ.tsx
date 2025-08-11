@@ -1,4 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Button } from "@/components/ui/button";
 
 const FAQ = () => {
   const faqs = [
@@ -75,14 +76,16 @@ const FAQ = () => {
               Nossa equipe está pronta para esclarecer qualquer questão e ajudar você a escolher o terno perfeito
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="https://wa.me/5511999999999" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
-              >
-                Falar no WhatsApp
-              </a>
+              <Button asChild variant="ghost" className="inline-flex items-center justify-center gap-2 bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">
+                <a 
+                  href="https://wa.me/5585981966777?text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20d%C3%BAvidas." 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  aria-label="Falar no WhatsApp"
+                >
+                  Falar no WhatsApp
+                </a>
+              </Button>
               <a 
                 href="tel:+5511999999999"
                 className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-gold text-gold px-8 py-3 rounded-lg font-semibold hover:bg-gold hover:text-black-elegant transition-colors"

@@ -83,13 +83,27 @@ const Location = () => {
 
             {/* Action Buttons */}
             <div className="space-y-4">
-              <Button variant="gold" size="lg" className="w-full">
-                <Calendar className="w-5 h-5" />
-                Agendar Visita Presencial
+              <Button asChild variant="gold" size="lg" className="w-full">
+                <a 
+                  href="https://wa.me/5585981966777?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20visita." 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  aria-label="Agendar visita pelo WhatsApp"
+                >
+                  <Calendar className="w-5 h-5" />
+                  Agendar Visita Presencial
+                </a>
               </Button>
-              <Button variant="gold-outline" size="lg" className="w-full">
-                <MapPin className="w-5 h-5" />
-                Ver no Google Maps
+              <Button asChild variant="gold-outline" size="lg" className="w-full">
+                <a 
+                  href="https://maps.app.goo.gl/B1VoabU4SGF6jzgB9" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  aria-label="Ver no Google Maps"
+                >
+                  <MapPin className="w-5 h-5" />
+                  Ver no Google Maps
+                </a>
               </Button>
             </div>
           </div>

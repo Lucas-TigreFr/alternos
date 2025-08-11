@@ -76,9 +76,11 @@ const Footer = () => {
               </div>
             </div>
             
-            <Button variant="whatsapp" className="w-full mt-6">
-              <MessageCircle className="w-4 h-4" />
-              Falar no WhatsApp
+            <Button asChild variant="whatsapp" className="w-full mt-6">
+              <a href="https://wa.me/5585981966777?text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20d%C3%BAvidas." target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+                <MessageCircle className="w-4 h-4" />
+                Falar no WhatsApp
+              </a>
             </Button>
           </div>
         </div>

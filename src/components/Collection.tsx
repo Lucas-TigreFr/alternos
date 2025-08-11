@@ -37,6 +37,12 @@ const Collection = () => {
 
   const instagramImages = [instagram1, instagram2, instagram3, instagram4];
 
+  const consultLinks = [
+    "https://wa.me/5585981966777?text=Ol%C3%A1%2C%20gostaria%20de%20ver%20os%20modelos%20de%20terno%20pretos.",
+    "https://wa.me/5585981966777?text=Ol%C3%A1%2C%20gostaria%20de%20ver%20os%20ternos%20azuis%20marinhos.",
+    "https://wa.me/5585981966777?text=Ol%C3%A1%2C%20gostaria%20de%20ver%20os%20ternos%20charcoal."
+  ];
+
   return (
     <section id="colecao" className="py-20 bg-black-light">
       <div className="container mx-auto px-4">
@@ -101,9 +107,16 @@ const Collection = () => {
                     </li>
                   ))}
                 </ul>
-                <Button variant="gold-outline" className="w-full">
-                  <MessageCircle className="w-4 h-4" />
-                  Consultar Disponibilidade
+                <Button asChild variant="gold-outline" className="w-full">
+                  <a
+                    href={consultLinks[index]}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Consultar disponibilidade de ${suit.name}`}
+                  >
+                    <MessageCircle className="w-4 h-4" />
+                    Consultar Disponibilidade
+                  </a>
                 </Button>
               </CardContent>
             </Card>
@@ -129,8 +142,10 @@ const Collection = () => {
               </div>
             ))}
           </div>
-          <Button variant="gold-outline">
-            @alternosoficial
+          <Button asChild variant="gold-outline">
+            <a href="https://www.instagram.com/al_ternos/" target="_blank" rel="noopener noreferrer" aria-label="Visitar nosso Instagram @alternosoficial">
+              @alternosoficial
+            </a>
           </Button>
         </div>
       </div>
