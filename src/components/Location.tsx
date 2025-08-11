@@ -38,9 +38,7 @@ const Location = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-gold mb-2">Endereço</h3>
                     <p className="text-muted-foreground">
-                      Rua da Elegância, 123<br />
-                      Centro - São Paulo/SP<br />
-                      CEP: 01234-567
+                      R. Seis, 110 - Parque Dois Irmãos, Fortaleza - CE, 60743-260
                     </p>
                   </div>
                 </div>
