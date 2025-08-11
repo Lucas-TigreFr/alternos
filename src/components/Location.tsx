@@ -72,7 +72,7 @@ const Location = () => {
                     <div className="text-muted-foreground space-y-1">
                       
                       <p>WhatsApp: (55) 85 9 8196-6777</p>
-                      <p>Email: contato@altnos.com.br</p>
+                      <p>Email: empresa.alternos@gmail.com</p>
                     </div>
                   </div>
                 </div>
