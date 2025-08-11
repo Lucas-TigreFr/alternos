@@ -18,15 +18,16 @@ const Location = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Map */}
           <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden border border-black-medium h-96 bg-black-medium">
-              <iframe
-                src="https://www.google.com/maps?q=https://maps.app.goo.gl/B1VoabU4SGF6jzgB9&output=embed"
-                title="Mapa AL Ternos - Ver no Google Maps"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="absolute inset-0 w-full h-full"
-                aria-label="Mapa interativo do Google Maps mostrando a localização da AL Ternos"
-              />
+            <div className="bg-black-medium rounded-2xl h-96 flex items-center justify-center border border-black-medium">
+              <div className="text-center">
+                <MapPin className="w-16 h-16 text-gold mx-auto mb-4" />
+                <p className="text-muted-foreground">
+                  Mapa interativo será carregado aqui
+                </p>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Integração com Google Maps
+                </p>
+              </div>
             </div>
           </div>
 
