@@ -80,7 +80,7 @@ const Location = () => {
             {/* Action Buttons */}
             <div className="space-y-4">
               <Button asChild variant="gold" size="lg" className="w-full">
-                <a href="https://wa.me/5585981966777?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20visita." target="_blank" rel="noopener noreferrer" aria-label="Agendar visita pelo WhatsApp">
+                <a href="https://wa.me/5585981966777?text=Olá%2C+gostaria+de+saber+mais+sobre+os+ternos" target="Whats" rel="noopener noreferrer" aria-label="Agendar visita pelo WhatsApp">
                   <Calendar className="w-5 h-5" />
                   Agendar Visita Presencial
                 </a>

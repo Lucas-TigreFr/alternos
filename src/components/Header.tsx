@@ -27,9 +27,11 @@ const Header = () => {
             <Phone className="w-4 h-4" />
             (11) 9 9999-9999
           </Button>
-          <Button variant="whatsapp" size="sm">
-            <MessageCircle className="w-4 h-4" />
-            WhatsApp
+          <Button asChild variant="whatsapp" size="sm">
+            <a href="https://wa.me/5585981966777?text=Olá%2C+gostaria+de+saber+mais+sobre+os+ternos" target="Whats" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+              <MessageCircle className="w-4 h-4" />
+              WhatsApp
+            </a>
           </Button>
         </div>
       </div>

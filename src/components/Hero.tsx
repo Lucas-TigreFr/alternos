@@ -35,7 +35,7 @@ const Hero = () => {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button asChild variant="gold" size="xl" className="min-w-[200px]">
-            <a href="https://wa.me/5585981966777?text=Olá%2C+gostaria+de+saber+mais+sobre+os+ternos" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+            <a href="https://wa.me/5585981966777?text=Olá%2C+gostaria+de+saber+mais+sobre+os+ternos" target="Whats" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
               <MessageCircle className="w-5 h-5" />
               Falar no WhatsApp
             </a>

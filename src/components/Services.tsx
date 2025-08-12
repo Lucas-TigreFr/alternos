@@ -66,8 +66,8 @@ const Services = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="https://wa.me/5511999999999" 
-                target="_blank" 
+                href="https://wa.me/5585981966777?text=Olá%2C+gostaria+de+saber+mais+sobre+os+ternos" 
+                target="Whats" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
               >

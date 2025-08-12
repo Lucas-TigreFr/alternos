@@ -59,7 +59,7 @@ const FAQ = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild variant="ghost" className="inline-flex items-center justify-center gap-2 bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">
-                <a href="https://wa.me/5585981966777?text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20d%C3%BAvidas." target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+                <a href="https://wa.me/5585981966777?text=Olá%2C+gostaria+de+saber+mais+sobre+os+ternos" target="Whats" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
                   Falar no WhatsApp
                 </a>
               </Button>
