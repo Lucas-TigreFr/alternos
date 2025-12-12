@@ -15,7 +15,7 @@ const Collection = () => {
     {
       name: "Terno Clássico Preto",
       description: "Elegância atemporal para cerimônias e eventos especiais",
-      price: "A partir de R$ 199,00",
+      price: "A partir de R$ 250,00",
       features: ["Corte Slim Fit", "Tecido Premium", "Gravata + Camisa Social Inclusas"],
       image: catalog1
     },
